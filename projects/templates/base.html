@@ -1,0 +1,16 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        {% if title %}
+        <title>Moringa Pitch - {{title}}</title>
+        {% else %}
+          <title> Moringa Pitch </title>
+        {% endif %}
+      
+    </head>
+    <body>
+        {% block content%}
+        
+        {% endblock%}
+    </body>
+</html>
